@@ -1,0 +1,48 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+@import '../base/fonts';
+/* HEADER */
+.header {
+    width: 100%;
+    /* position: fixed; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 15px;
+}
+
+.navbar__logo,
+.navbar__list--items {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar__image {
+    width: 50px;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px -6px rgba(204, 204, 204, 0.64);
+    -moz-box-shadow: 10px 10px 5px -6px rgba(204, 204, 204, 0.64);
+    box-shadow: 10px 10px 5px -6px rgba(204, 204, 204, 0.64);
+}
+.link__items {
+    color: $quick-silver-color;
+}
+.link__items--border {
+    border: 1px solid $quick-silver-color;
+    padding: 5px 10px;
+}
+.link__items--bg {
+    background-color: $shamrock-color;
+    color: $white-color;
+    transition: all 0.25s ease;
+    &:hover {
+        background-color: $turquoise-green-color;
+    }
+}

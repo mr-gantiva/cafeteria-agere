@@ -1,0 +1,8 @@
+@mixin set-max-width($max-width) {
+    max-width: $max-width;
+}
+
+@mixin set-margin($margin-top, $margin-bottom) {
+    margin-top: $margin-top;
+    margin-bottom: $margin-bottom;
+}
