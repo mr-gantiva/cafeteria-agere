@@ -2,13 +2,10 @@
 
 Este es un proyecto web para la tienda **Café Agere**, una tienda especializada en variedades de café y accesorios relacionados. Este repositorio contiene el código fuente del sitio web, incluyendo el HTML, CSS y SCSS utilizados para construir la interfaz de usuario.
 
-## Demo
-Puedes ver la página en vivo aquí: [Blog Frontend Café Agere](https://github.com/mr-gantiva/cafeteria-agere)
 
 ## Índice
 
 - [Café Agere](#café-agere)
-  - [Demo](#demo)
   - [Índice](#índice)
   - [Descripción](#descripción)
   - [Estructura del Proyecto](#estructura-del-proyecto)
