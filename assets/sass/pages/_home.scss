@@ -1,0 +1,70 @@
+@import '../abstracts/mixins';
+
+.main__content {
+    @include set-max-width(1200px);
+}
+
+.ppal__banner {
+    display: flex;
+}
+
+.banner__content {
+    position: relative;
+    width: 70%;
+}
+
+.banner__info {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.image__ppal {
+    width: 100%;
+}
+
+.box__name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}
+
+.name__section {
+    padding-bottom: 15%;
+    padding-left: 20%;
+}
+
+.arrow__section {
+    @include set-display-center;
+    padding: 8%;
+    position: relative;
+}
+
+.box__arrow {
+    padding: 10%;
+    position: absolute;
+    left: -15px;
+}
+
+/* Ven a Conocernos */
+.ubicacion {
+    display: flex;
+}
+
+.ubicacion__left {
+    @include set-display-center;
+    width: 70%;
+}
+
+.mapa__content {
+    -webkit-box-shadow: 49px -23px 0px 5px $blue-france-color;
+    -moz-box-shadow: 49px -23px 0px 5px $blue-france-color;
+    box-shadow: 49px -23px 0px 5px $blue-france-color;
+}
+
+.ubicacion__right {
+    width: 30%;
+}

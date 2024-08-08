@@ -1,0 +1,8 @@
+@import '../abstracts/variables';
+
+.box__arrow {
+    background-color: $flame-color;
+    -webkit-box-shadow: 20px 32px 0px 4px $coral-color;
+    -moz-box-shadow: 20px 32px 0px 4px $coral-color;
+    box-shadow: 20px 32px 0px 4px r$coral-color;;
+}

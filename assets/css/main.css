@@ -1,3 +1,7 @@
+h1 {
+  font-size: clamp(1.875rem, 3vw + 1rem, 4rem);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +19,28 @@ li {
 .main {
   max-width: 1200px;
   margin: 0 auto;
+  margin: 0 auto;
   padding: 0 15px;
+}
+
+.box__arrow {
+  background-color: #E4572E;
+  -webkit-box-shadow: 20px 32px 0px 4px #eacb31;
+  -moz-box-shadow: 20px 32px 0px 4px #eacb31;
+  box-shadow: 20px 32px 0px 4px r #eacb31;
+}
+
+.info__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 150px;
+  padding: 20px;
+  background-color: #FFF;
+}
+
+.info__text {
+  max-width: 200px;
 }
 
 .roboto-thin {
@@ -143,6 +168,80 @@ li {
 }
 .link__items--bg:hover {
   background-color: #9DCFAB;
+}
+
+.main__content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ppal__banner {
+  display: flex;
+}
+
+.banner__content {
+  position: relative;
+  width: 70%;
+}
+
+.banner__info {
+  display: flex;
+  justify-content: end;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.image__ppal {
+  width: 100%;
+}
+
+.box__name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+}
+
+.name__section {
+  padding-bottom: 15%;
+  padding-left: 20%;
+}
+
+.arrow__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8%;
+  position: relative;
+}
+
+.box__arrow {
+  padding: 10%;
+  position: absolute;
+  left: -15px;
+}
+
+/* Ven a Conocernos */
+.ubicacion {
+  display: flex;
+}
+
+.ubicacion__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.mapa__content {
+  -webkit-box-shadow: 49px -23px 0px 5px #3C91E6;
+  -moz-box-shadow: 49px -23px 0px 5px #3C91E6;
+  box-shadow: 49px -23px 0px 5px #3C91E6;
+}
+
+.ubicacion__right {
+  width: 30%;
 }
 
 /*# sourceMappingURL=main.css.map */

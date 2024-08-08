@@ -7,5 +7,9 @@
 // @import 'vendors/';
 
 @import 'abstracts/mixins';
+@import 'base/base';
 @import 'base/reset';
+@import 'components/boxes';
+@import 'components/cards';
 @import 'layout/header';
+@import 'pages/home'

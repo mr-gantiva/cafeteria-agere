@@ -1,5 +1,12 @@
 @mixin set-max-width($max-width) {
     max-width: $max-width;
+    margin: 0 auto;
+}
+
+@mixin set-display-center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @mixin set-margin($margin-top, $margin-bottom) {
