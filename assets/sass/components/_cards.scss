@@ -5,9 +5,10 @@
     flex-direction: column;
     justify-content: center;
     min-height: 150px;
-    padding: 20px;
+    padding: 4%;
     background-color: $white-color;
 }
 .info__text {
     max-width: 200px;
+    font-size: clamp(0.5rem, 2vw, 1rem);
 }

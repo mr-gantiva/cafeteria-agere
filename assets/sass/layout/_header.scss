@@ -23,16 +23,16 @@
     align-items: center;
     gap: 10px;
 }
+.navbar__link--small {
+    width: 10%;
+}
 
 .navbar__image {
-    width: 50px;
-    border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 5px -6px rgba(204, 204, 204, 0.64);
-    -moz-box-shadow: 10px 10px 5px -6px rgba(204, 204, 204, 0.64);
-    box-shadow: 10px 10px 5px -6px rgba(204, 204, 204, 0.64);
+    width: 100%;
 }
 .link__items {
     color: $quick-silver-color;
+    font-size: clamp(0.5rem, 2vw, 1rem);
 }
 .link__items--border {
     border: 1px solid $quick-silver-color;

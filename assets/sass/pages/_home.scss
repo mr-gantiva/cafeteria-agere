@@ -1,4 +1,5 @@
 @import '../abstracts/mixins';
+@import '../abstracts/variables';
 
 .main__content {
     @include set-max-width(1200px);
@@ -58,13 +59,53 @@
     @include set-display-center;
     width: 70%;
 }
+.ubicacion__texto {
+    width: 38%;
+}
+.mapa {
+    width: 62%;
+}
 
 .mapa__content {
-    -webkit-box-shadow: 49px -23px 0px 5px $blue-france-color;
-    -moz-box-shadow: 49px -23px 0px 5px $blue-france-color;
-    box-shadow: 49px -23px 0px 5px $blue-france-color;
+    background-color: $blue-france-color;
+}
+.mapa__imagen {
+    width: 90%;
+    position: relative;
+    top: 20px;
+    right: 20px;
 }
 
 .ubicacion__right {
     width: 30%;
+    background-image: url('/assets/img/img-2.png');
+    background-size: cover;
+}
+
+.ubicacion__titulo {
+    text-align: center;
+    font-size: clamp(1rem, 2vw + 1rem, 1.5rem);
+}
+.ubicacion__descripcion {
+    padding-left: 13%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+.cafetera {
+    position: relative;
+    &__imagen {
+        width: 100%;
+    }
+}
+.cafe {
+    position: absolute;
+    top: 0;
+    left: -35px;
+    width: 20%;
+    height: 120px;
+    overflow: hidden;
+    &__imagen {
+        width: 100%;
+    }
 }
